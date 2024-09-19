@@ -1,0 +1,150 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+     display: grid;
+    grid-template-rows: repeat(4, 1fr 1fr 1fr 1fr);
+    max-width: 1200px; 
+    max-height: 800px;
+ 
+}
+
+  .thumbnails {
+    cursor: pointer;
+
+    z-index:999; 
+    transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out; 
+     
+}
+
+.thumbnails:hover { 
+    
+    transform: scale(1.1);
+    
+    }
+
+
+
+.flex1 {
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: baseline;
+    margin: 10px;
+}
+
+.box1 {
+    line-height: 1.6;
+    box-sizing: border-box;
+    border: solid rgb(222, 221, 237) 3px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    border-radius: 2%;
+}
+
+
+.flex2 {
+    grid-row: 2 / 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: baseline;
+    margin: 10px;
+
+}
+
+.box2 {
+    line-height: 1.6;
+    box-sizing: border-box;
+    border: solid rgb(222, 221, 237) 3px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+    border-radius: 2%;
+   
+}
+
+
+.flex3 {
+    grid-row: 3 / 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: baseline;
+    margin: 10px;
+}
+
+.box3 {
+    line-height: 1.6;
+    box-sizing: border-box;
+    border: solid rgb(222, 221, 237) 3px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    border-radius: 2%;
+}
+
+
+.flex4 {
+    grid-row: 4 / 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: baseline;
+    margin: 10px;
+}
+
+.box4 {
+    line-height: 1.6;
+    box-sizing: border-box;
+    border: solid rgb(222, 221, 237) 3px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    border-radius: 2%;
+}
+
+.names {
+    text-align: center;
+
+}
+.contain {
+    display: flex;
+justify-content: center;
+
+}
+
+
+.arrow {
+
+    color: rgb(197, 219, 238);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    border: solid white;
+    background-color: rgba(33, 48, 61, 0.4);
+   
+  }
+
+  .playfair-display-title {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+   
+    font-style: normal;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(141, 193, 239);
+    font-weight: 600;
+  }

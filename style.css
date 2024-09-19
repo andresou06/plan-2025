@@ -1,0 +1,183 @@
+html {
+   
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.img1 {
+    background-image: url(./Images/FIRST\ LAYOUT.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+
+.josefin-slab-layout {
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 100px;
+  color: aliceblue;
+  
+}
+
+
+.thumbnails {
+    cursor: pointer;
+    top:-10px; 
+    left:-5px; 
+    display:block; 
+    z-index:999; 
+    transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out; 
+     
+}
+
+.thumbnails:hover { 
+    opacity: 0.4;
+    transform: scale(1.2);
+    
+    }
+
+.main {
+    display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+   position: relative;
+   bottom: 150px;
+}
+
+section:nth-child(1) {
+    margin-right: auto;
+    margin: 80px;
+
+ 
+
+}
+
+section:nth-child(2) {
+    margin-left:auto;
+    margin: 80px;
+
+}
+
+.toggle {
+    cursor: pointer;
+    font-weight: bold;
+    gap: 100px;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 5px 10px black;
+    font-size: 25px;
+    width:fit-content;
+    height: 100%;
+    
+    
+}
+
+.content {
+
+   display: block;
+    padding: 10px;
+    box-sizing:content-box;
+    border: solid rgba(255, 255, 255, 0.5);
+    line-height: 1.2;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 800;
+    color: aliceblue;
+    max-height: 0;
+
+  transition: max-height 0.3s ease-out;
+  
+  max-height: 230px;
+
+}
+
+
+
+.content:nth-child(1) {
+    text-align: center;
+   
+    height: 100%;
+  
+    
+}
+
+
+.content:nth-child(2) {
+    text-align: center;
+    width: fit-content;
+    height: 100%;
+    margin-left: auto;
+   
+}
+
+
+
+.playfair-display-main {
+  font-family: "Playfair Display", serif;
+  
+  font-weight: 400;
+  font-style:italic;
+}
+
+/* .chapter {
+
+    display: flex;
+    justify-content: center;
+    align-content: baseline;
+    gap: 70px;
+    position: relative;
+    bottom: 200px;
+   
+} */
+
+
+.arrow {
+  display: flex;
+  justify-content: center;
+    position: relative;
+    bottom: 200px;
+ 
+    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24,
+  ;
+  color: aliceblue;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(191, 220, 246);
+    box-sizing: border-box;
+    width: fit-content;
+    height: fit-content;
+    border: solid rgb(181, 164, 164) 1px;
+    background-color: rgba(30, 20, 20, 0.7);
+}
+

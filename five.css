@@ -1,0 +1,114 @@
+
+
+.align {
+    
+    
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: baseline;
+    position: relative;
+    
+}
+
+
+.box {
+    padding: 15px;
+    line-height: 1.2;
+    position: relative;
+    top: 35px;
+    left: 35px;
+    box-sizing: border-box;
+    border: solid rgb(52, 49, 49);
+    border-radius: 2%;
+    width: fit-content;
+    height: fit-content;
+    background-color:rgba(169, 159, 159, 0.1) ;
+}
+
+
+
+
+.bitter-total {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.playfair-display-title {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+ 
+  font-style: normal;
+} 
+
+
+
+.Wrappers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.cercle {
+    display: flex;
+    border-radius: 20%;
+    justify-content: space-between;
+    justify-content: baseline;
+    
+    flex-grow: 1;
+    flex-basis: 25px;
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 0;
+    
+}
+
+
+
+
+.thumbnails {
+    cursor: pointer;
+    transition: opacity .25s ease-in-out;
+     -moz-transition: opacity .25s ease-in-out;
+     -webkit-transition: opacity .25s ease-in-out; 
+}
+
+.thumbnails:hover { 
+    opacity: 0.4;
+     
+    transform: scale(1.1);
+     }
+
+img {
+    box-shadow: 10px 5px 5px rgb(210, 207, 207);
+}
+
+.caption {
+  
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+    
+}
+
+
+.arrow {
+   display: flex;
+    justify-content: center;
+    
+      align-items: center;
+      text-decoration: none;
+      color: rgb(159, 215, 215);
+    
+      box-sizing: border-box;
+      background-color: aliceblue;
+      position: relative;
+
+  }
